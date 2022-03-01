@@ -1,0 +1,255 @@
+PackratFormat: 1.4
+PackratVersion: 0.6.0
+RVersion: 3.4.4
+Repos: =https://cloud.r-project.org
+
+Package: R6
+Source: CRAN
+Version: 2.5.1
+
+Package: RColorBrewer
+Source: CRAN
+Version: 1.1-2
+
+Package: base64enc
+Source: CRAN
+Version: 0.1-3
+
+Package: brio
+Source: CRAN
+Version: 1.1.2
+
+Package: callr
+Source: CRAN
+Version: 3.7.0
+Requires: R6, processx
+
+Package: cli
+Source: CRAN
+Version: 3.1.0
+Requires: glue
+
+Package: colorspace
+Source: CRAN
+Version: 2.0-2
+
+Package: crayon
+Source: CRAN
+Version: 1.4.2
+
+Package: desc
+Source: CRAN
+Version: 1.4.0
+Requires: R6, crayon, rprojroot
+
+Package: diffobj
+Source: CRAN
+Version: 0.3.5
+Requires: crayon
+
+Package: digest
+Source: CRAN
+Version: 0.6.28
+
+Package: ellipsis
+Source: CRAN
+Version: 0.3.2
+Requires: rlang
+
+Package: evaluate
+Source: CRAN
+Version: 0.14
+
+Package: fansi
+Source: CRAN
+Version: 0.5.0
+
+Package: farver
+Source: CRAN
+Version: 2.1.0
+
+Package: fastmap
+Source: CRAN
+Version: 1.1.0
+
+Package: ggplot2
+Source: CRAN
+Version: 3.3.5
+Requires: digest, glue, rlang, gtable, isoband, scales, tibble, withr
+
+Package: glue
+Source: CRAN
+Version: 1.5.0
+
+Package: gtable
+Source: CRAN
+Version: 0.3.0
+
+Package: highr
+Source: CRAN
+Version: 0.9
+Requires: xfun
+
+Package: htmltools
+Source: CRAN
+Version: 0.5.2
+Requires: base64enc, digest, fastmap, rlang
+
+Package: isoband
+Source: CRAN
+Version: 0.2.5
+
+Package: jquerylib
+Source: CRAN
+Version: 0.1.4
+Requires: htmltools
+
+Package: jsonlite
+Source: CRAN
+Version: 1.7.2
+
+Package: knitr
+Source: CRAN
+Version: 1.36
+Requires: evaluate, highr, xfun, stringr, yaml
+
+Package: labeling
+Source: CRAN
+Version: 0.4.2
+
+Package: lifecycle
+Source: CRAN
+Version: 1.0.1
+Requires: glue, rlang
+
+Package: magrittr
+Source: CRAN
+Version: 2.0.1
+
+Package: munsell
+Source: CRAN
+Version: 0.5.0
+Requires: colorspace
+
+Package: packrat
+Source: CRAN
+Version: 0.6.0
+Hash: 62fd532b7524f498caa3cf4cc5f15490
+
+Package: pillar
+Source: CRAN
+Version: 1.6.4
+Requires: cli, crayon, ellipsis, fansi, lifecycle, rlang, utf8, vctrs
+
+Package: pkgconfig
+Source: CRAN
+Version: 2.0.3
+
+Package: pkgload
+Source: CRAN
+Version: 1.2.3
+Requires: cli, crayon, desc, rlang, rprojroot, withr, rstudioapi
+
+Package: praise
+Source: CRAN
+Version: 1.0.0
+
+Package: processx
+Source: CRAN
+Version: 3.5.2
+Requires: R6, ps
+
+Package: ps
+Source: CRAN
+Version: 1.6.0
+
+Package: rematch2
+Source: CRAN
+Version: 2.1.2
+Requires: tibble
+
+Package: rlang
+Source: CRAN
+Version: 0.4.12
+
+Package: rmarkdown
+Source: CRAN
+Version: 2.11
+Requires: evaluate, htmltools, jquerylib, jsonlite, knitr, stringr,
+    xfun, yaml, tinytex
+
+Package: rpart
+Source: CRAN
+Version: 4.1-13
+Hash: 1d1f155d009e010e7d6634a90a87cead
+
+Package: rprojroot
+Source: CRAN
+Version: 2.0.2
+
+Package: rstudioapi
+Source: CRAN
+Version: 0.13
+
+Package: scales
+Source: CRAN
+Version: 1.1.1
+Requires: R6, RColorBrewer, farver, labeling, lifecycle, munsell,
+    viridisLite
+
+Package: stringi
+Source: CRAN
+Version: 1.7.5
+
+Package: stringr
+Source: CRAN
+Version: 1.4.0
+Requires: glue, magrittr, stringi
+
+Package: testthat
+Source: CRAN
+Version: 3.1.0
+Requires: R6, brio, callr, cli, crayon, desc, digest, ellipsis,
+    evaluate, jsonlite, lifecycle, magrittr, pkgload, praise, processx,
+    ps, rlang, withr, waldo
+
+Package: tibble
+Source: CRAN
+Version: 3.1.6
+Requires: ellipsis, fansi, lifecycle, rlang, magrittr, pillar,
+    pkgconfig, vctrs
+
+Package: tinytex
+Source: CRAN
+Version: 0.35
+Requires: xfun
+
+Package: utf8
+Source: CRAN
+Version: 1.2.2
+
+Package: vctrs
+Source: CRAN
+Version: 0.3.8
+Requires: ellipsis, glue, rlang
+
+Package: viridisLite
+Source: CRAN
+Version: 0.4.0
+
+Package: waldo
+Source: CRAN
+Version: 0.3.1
+Requires: cli, diffobj, fansi, glue, rematch2, rlang, tibble
+
+Package: withr
+Source: CRAN
+Version: 2.4.2
+
+Package: xfun
+Source: CRAN
+Version: 0.28
+
+Package: yaml
+Source: CRAN
+Version: 2.2.1
